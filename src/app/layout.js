@@ -14,7 +14,7 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "Instagram",
-  description: "instagram pagina fake",
+  description: "Faça o login",
 };
 
 export default function RootLayout({ children }) {
