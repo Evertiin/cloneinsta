@@ -158,7 +158,7 @@ const Clone = () => {
       </div>
 
       {/* Rodapé no estilo Instagram */}
-      <footer className="mt-8 text-center text-gray-500 text-xs space-y-2 flex flex-col gap-4 lg:absolute bottom-10">
+      <footer className="mt-8 text-center text-gray-500 text-xs space-y-2 flex flex-col gap-4 ">
         <div className="flex flex-wrap justify-center gap-2">
           <a href="#" className="hover:underline">Meta</a>
           <a href="#" className="hover:underline">Sobre</a>
