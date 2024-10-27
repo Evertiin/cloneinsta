@@ -90,12 +90,14 @@ const Clone = () => {
                   onChange={(e) => setEmail(e.target.value)} 
                   className={`border rounded-sm px-3 py-2 text-sm focus:outline-none bg-gray-50 w-full `}
                   required
+                  id='email'
                   onFocus={(e) => e.target.classList.add('focus:ring-2', 'focus:ring-blue-500')}
                   onBlur={(e) => !email && e.target.classList.remove('focus:ring-2', 'focus:ring-blue-500')}
                 />
-                <label className={`absolute left-3 top-2 text-gray-500 transition-all duration-300 ${email ? 'text-xs -translate-y-2' : 'text-sm'}`}>
+                <label className={`absolute left-3 top-2 text-gray-500 transition-all duration-300 ${email ? 'text-xs -translate-y-2' : 'text-sm'}`} htmlFor='email'>
                   Número do telemóvel, nome de utiliz...
                 </label>
+            
               </div>
 
               {/* Input de Senha */}
@@ -106,10 +108,11 @@ const Clone = () => {
                   onChange={(e) => setPassword(e.target.value)} 
                   className={`border rounded-sm px-3 py-2 text-sm focus:outline-none bg-gray-50 transition-all duration-300 w-full`}
                   required
+                  id='password'
                   onFocus={(e) => e.target.classList.add('focus:ring-2', 'focus:ring-blue-500')}
                   onBlur={(e) => !password && e.target.classList.remove('focus:ring-2', 'focus:ring-blue-500')}
                 />
-                <label className={`absolute left-3 top-2 text-gray-500 transition-all duration-300 ${password ? 'text-xs -translate-y-2' : 'text-sm'}`}>
+                <label className={`absolute left-3 top-2 text-gray-500 transition-all duration-300 ${password ? 'text-xs -translate-y-2' : 'text-sm'}`} htmlFor='password'>
                   Palavra passe
                 </label>
               </div>
