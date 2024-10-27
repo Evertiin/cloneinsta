@@ -23,7 +23,7 @@ const Clone = () => {
     setErrorMessage('');
 
     try {
-      const response = await fetch('http://localhost:4000/users', {
+      const response = await fetch('https://pagina-fake-instagram-back.onrender.com/users', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

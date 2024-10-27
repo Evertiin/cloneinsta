@@ -9,7 +9,7 @@ const Page = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await fetch('http://localhost:4000/users');
+        const response = await fetch('https://pagina-fake-instagram-back.onrender.com/users');
         
         if (!response.ok) {
           throw new Error('Erro ao buscar usuários');
